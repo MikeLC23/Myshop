@@ -15,7 +15,7 @@ class Index_controller {
     
     public function index($param = null){
         if (empty($param)){
-            $param = "Tuu";
+            $param = "Tu";            
         }
             echo "Hola ".$param. "!";
          
